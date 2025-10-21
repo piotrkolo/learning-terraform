@@ -103,6 +103,7 @@ module "blog_alb" {
       protocol         = "HTTP"
       port             = 80
       target_type      = "instance"
+      target_id        = "i-0f6d38a07d50d080f"
     }
   }
 
